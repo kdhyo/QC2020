@@ -2501,6 +2501,7 @@ ul.icons li .icon:before {
   padding: 8rem 0 6rem 0;
   position: relative;
   z-index: 1;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 1280px) {
   .wrapper {
