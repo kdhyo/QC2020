@@ -11,6 +11,15 @@ $border-size: 20px solid $white-color;
 
 .boxSize {
   height: 50px;
+  div {
+    border: 2px solid rgb(0, 184, 184);
+  }
+  .col-1 {
+    background-color: aqua;
+  }
+  .col-10 {
+    background-color: rgb(127, 252, 252);
+  }
 }
 
 body {
@@ -107,5 +116,11 @@ body {
       transform: rotateY(20deg) skewY(-3deg);
     }
     transform: translate(-50%, -50%) rotateY(-20deg) skewY(3deg);
+  }
+}
+
+header {
+  h3 {
+    color: black;
   }
 }

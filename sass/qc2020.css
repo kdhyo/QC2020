@@ -9,6 +9,18 @@
   height: 50px;
 }
 
+.boxSize div {
+  border: 2px solid #00b8b8;
+}
+
+.boxSize .col-1 {
+  background-color: aqua;
+}
+
+.boxSize .col-10 {
+  background-color: #7ffcfc;
+}
+
 body {
   background-color: #b71540;
   font-family: "Montserrat", sans-serif;
@@ -126,5 +138,9 @@ body {
 .box-qc:hover .text {
   -webkit-transform: rotateY(20deg) skewY(-3deg);
           transform: rotateY(20deg) skewY(-3deg);
+}
+
+header h3 {
+  color: black;
 }
 /*# sourceMappingURL=qc2020.css.map */
