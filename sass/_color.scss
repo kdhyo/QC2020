@@ -1,24 +1,19 @@
-$alpha: 0.2;
+$transparency: 0.2;
 
-$main-color: rgb(94, 94, 218) !default;
-$sub-color: rgb(35, 35, 196) !default;
+/* 대표 컬러 */
+$main-color: #4571ff !default;
+$sub-color: #00a8e6 !default;
 
-$bg-main-color: rgb($main-color, $alpha) !default;
-$bg-sub-color: rgb($sub-color, $alpha) !default;
+/* 서브 컬러 */
+$lightGreen: #05e634 !default;
+$aqua: #08fcbf !default;
+$lawnGreen: #68fe05 !default;
 
-$blue: rgb(0, 123, 255) !default;
-$purple: rgb(110, 65, 193) !default;
-$red: rgb(221, 53, 69) !default;
-$yellow: rgb(255, 193, 6) !default;
-$green: rgb(40, 167, 69) !default;
-$gray: rgb(108, 117, 125) !default;
-$dark: rgb(52, 58, 64) !default;
+/* 블랙앤화이트 */
 $white: rgb(255, 255, 255) !default;
 $black: rgb(0, 0, 0) !default;
 
-//background color
-$bg-blue: rgba($blue, $alpha) !default;
-$bg-purple: rgba($purple, $alpha) !default;
-$bg-red: rgba($red, $alpha) !default;
-$bg-yellow: rgba($yellow, $alpha) !default;
-$bg-green: rgba($green, $alpha) !default;
+/* 백그라운드 컬러 */
+$bg-main-color: rgb($main-color, $transparency) !default;
+$bg-sub-color: rgb($sub-color, $transparency) !default;
+$bg-img-maple: url("../images/maple.jpg") !default;
