@@ -14,6 +14,6 @@ $white: rgb(255, 255, 255) !default;
 $black: rgb(0, 0, 0) !default;
 
 /* 백그라운드 컬러 */
-$bg-main-color: rgb($main-color, $transparency) !default;
-$bg-sub-color: rgb($sub-color, $transparency) !default;
+$bg-main-color: rgba($main-color, $transparency) !default;
+$bg-sub-color: rgba($sub-color, $transparency) !default;
 $bg-img-maple: url("../images/maple.jpg") !default;
