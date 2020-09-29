@@ -1,4 +1,10 @@
-$alpha: 0.3;
+$alpha: 0.2;
+
+$main-color: rgb(94, 94, 218) !default;
+$sub-color: rgb(35, 35, 196) !default;
+
+$bg-main-color: rgb($main-color, $alpha) !default;
+$bg-sub-color: rgb($sub-color, $alpha) !default;
 
 $blue: rgb(0, 123, 255) !default;
 $purple: rgb(110, 65, 193) !default;

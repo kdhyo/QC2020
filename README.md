@@ -2,7 +2,8 @@
 
 ## 2020-09-22
 
-> sass 연습 </br>
+> sass 연습 </br> > https://kdhyo.github.io/QC2020/ (git주소) </br>  
+> http://sma1l.dothome.co.kr/ (메인닷홈주소)</br>
 
 ## 2020-09-15
 
