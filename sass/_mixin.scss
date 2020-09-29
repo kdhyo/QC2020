@@ -1,0 +1,11 @@
+@mixin font-size($input-size) {
+  font-size: $input-size;
+}
+
+@mixin font-family($input-family) {
+  font-family: $input-family;
+}
+
+@mixin font-color($input-color) {
+  color: $input-color;
+}
