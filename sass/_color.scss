@@ -1,0 +1,18 @@
+$alpha: 0.3;
+
+$blue: rgb(0, 123, 255) !default;
+$purple: rgb(110, 65, 193) !default;
+$red: rgb(221, 53, 69) !default;
+$yellow: rgb(255, 193, 6) !default;
+$green: rgb(40, 167, 69) !default;
+$gray: rgb(108, 117, 125) !default;
+$dark: rgb(52, 58, 64) !default;
+$white: rgb(255, 255, 255) !default;
+$black: rgb(0, 0, 0) !default;
+
+//background color
+$bg-blue: rgba($blue, $alpha) !default;
+$bg-purple: rgba($purple, $alpha) !default;
+$bg-red: rgba($red, $alpha) !default;
+$bg-yellow: rgba($yellow, $alpha) !default;
+$bg-green: rgba($green, $alpha) !default;
